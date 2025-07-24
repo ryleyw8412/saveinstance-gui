@@ -6,4 +6,4 @@ Customize properties for saving.
 
 ## Loadstring:
 ```
-loadstring(game:HttpGet("rawgithubusercontent"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ryleyw8412/saveinstance-gui/refs/heads/main/main.lua"))()

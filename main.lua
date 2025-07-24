@@ -114,6 +114,7 @@ UIListLayout.FillDirection = Enum.FillDirection.Horizontal
 UIListLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
 UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
 UIListLayout.Padding = UDim.new(0.0250000004, 0)
+UIListLayout.Wraps = true
 
 Documentation.Name = "Documentation"
 Documentation.Parent = Properties

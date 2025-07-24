@@ -27,7 +27,7 @@ local UICorner_4 = Instance.new("UICorner")
 --Properties:
 
 SaveInstance.Name = "SaveInstance"
-SaveInstance.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+SaveInstance.Parent = game.CoreGui
 SaveInstance.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 SaveInstance.DisplayOrder = 10
 SaveInstance.ResetOnSpawn = false
@@ -40,6 +40,8 @@ Main.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Main.BorderSizePixel = 0
 Main.Position = UDim2.new(0.800000012, 0, 0.5, 0)
 Main.Size = UDim2.new(0, 325, 0, 345)
+Main.Active = true
+Main.Draggable = true
 
 UICorner.CornerRadius = UDim.new(0, 10)
 UICorner.Parent = Main
@@ -260,7 +262,7 @@ end
 
 -- Scripts:
 
-local function WKQX_fake_script() -- TextButton.ClipboardHandler 
+local function FBKDA_fake_script() -- TextButton.ClipboardHandler 
 	local script = Instance.new('LocalScript', TextButton)
 	local req = require
 	local require = function(obj)
@@ -271,14 +273,14 @@ local function WKQX_fake_script() -- TextButton.ClipboardHandler
 		return req(obj)
 	end
 
-	local string = script.Parent.Link.Value
+	local string = "https://luau.github.io/UniversalSynSaveInstance/api/SynSaveInstance/"
 	
 	script.Parent.MouseButton1Up:Connect(function()
 		setclipboard(string)
 	end)
 end
-coroutine.wrap(WKQX_fake_script)()
-local function IOBJSS_fake_script() -- TextButton_2.ClipboardHandler 
+coroutine.wrap(FBKDA_fake_script)()
+local function YGFCX_fake_script() -- TextButton_2.ClipboardHandler 
 	local script = Instance.new('LocalScript', TextButton_2)
 	local req = require
 	local require = function(obj)
@@ -289,14 +291,14 @@ local function IOBJSS_fake_script() -- TextButton_2.ClipboardHandler
 		return req(obj)
 	end
 
-	local string = script.Parent.Link.Value
+	local string = "https://discord.gg/wx4ThpAsmw"
 	
 	script.Parent.MouseButton1Up:Connect(function()
 		setclipboard(string)
 	end)
 end
-coroutine.wrap(IOBJSS_fake_script)()
-local function MRKM_fake_script() -- BooleanSwitcher.Handler 
+coroutine.wrap(YGFCX_fake_script)()
+local function VTDJPKR_fake_script() -- BooleanSwitcher.Handler 
 	local script = Instance.new('LocalScript', BooleanSwitcher)
 	local req = require
 	local require = function(obj)
@@ -324,8 +326,8 @@ local function MRKM_fake_script() -- BooleanSwitcher.Handler
 		end
 	end)
 end
-coroutine.wrap(MRKM_fake_script)()
-local function PLSNU_fake_script() -- BooleanSwitcher_2.Handler 
+coroutine.wrap(VTDJPKR_fake_script)()
+local function WXORKWP_fake_script() -- BooleanSwitcher_2.Handler 
 	local script = Instance.new('LocalScript', BooleanSwitcher_2)
 	local req = require
 	local require = function(obj)
@@ -353,8 +355,8 @@ local function PLSNU_fake_script() -- BooleanSwitcher_2.Handler
 		end
 	end)
 end
-coroutine.wrap(PLSNU_fake_script)()
-local function APSAWKJ_fake_script() -- SaveInstance_2.SaveHandler 
+coroutine.wrap(WXORKWP_fake_script)()
+local function YDEWSTL_fake_script() -- SaveInstance_2.SaveHandler 
 	local script = Instance.new('LocalScript', SaveInstance_2)
 	local req = require
 	local require = function(obj)
@@ -382,4 +384,4 @@ local function APSAWKJ_fake_script() -- SaveInstance_2.SaveHandler
 		synsaveinstance(options)
 	end)
 end
-coroutine.wrap(APSAWKJ_fake_script)()
+coroutine.wrap(YDEWSTL_fake_script)()

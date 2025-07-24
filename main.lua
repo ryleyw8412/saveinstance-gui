@@ -39,7 +39,7 @@ Main.BackgroundColor3 = Color3.fromRGB(107, 101, 104)
 Main.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Main.BorderSizePixel = 0
 Main.Position = UDim2.new(0.800000012, 0, 0.5, 0)
-Main.Size = UDim2.new(0, 325, 0, 345)
+Main.Size = UDim2.new(0.243628189, 0, 0.483193278, 0)
 Main.Active = true
 Main.Draggable = true
 
@@ -262,7 +262,7 @@ end
 
 -- Scripts:
 
-local function FBKDA_fake_script() -- TextButton.ClipboardHandler 
+local function SMYM_fake_script() -- TextButton.ClipboardHandler 
 	local script = Instance.new('LocalScript', TextButton)
 	local req = require
 	local require = function(obj)
@@ -279,8 +279,8 @@ local function FBKDA_fake_script() -- TextButton.ClipboardHandler
 		setclipboard(string)
 	end)
 end
-coroutine.wrap(FBKDA_fake_script)()
-local function YGFCX_fake_script() -- TextButton_2.ClipboardHandler 
+coroutine.wrap(SMYM_fake_script)()
+local function YUEDQ_fake_script() -- TextButton_2.ClipboardHandler 
 	local script = Instance.new('LocalScript', TextButton_2)
 	local req = require
 	local require = function(obj)
@@ -297,8 +297,8 @@ local function YGFCX_fake_script() -- TextButton_2.ClipboardHandler
 		setclipboard(string)
 	end)
 end
-coroutine.wrap(YGFCX_fake_script)()
-local function VTDJPKR_fake_script() -- BooleanSwitcher.Handler 
+coroutine.wrap(YUEDQ_fake_script)()
+local function ZDCZ_fake_script() -- BooleanSwitcher.Handler 
 	local script = Instance.new('LocalScript', BooleanSwitcher)
 	local req = require
 	local require = function(obj)
@@ -326,8 +326,8 @@ local function VTDJPKR_fake_script() -- BooleanSwitcher.Handler
 		end
 	end)
 end
-coroutine.wrap(VTDJPKR_fake_script)()
-local function WXORKWP_fake_script() -- BooleanSwitcher_2.Handler 
+coroutine.wrap(ZDCZ_fake_script)()
+local function ROQW_fake_script() -- BooleanSwitcher_2.Handler 
 	local script = Instance.new('LocalScript', BooleanSwitcher_2)
 	local req = require
 	local require = function(obj)
@@ -355,8 +355,8 @@ local function WXORKWP_fake_script() -- BooleanSwitcher_2.Handler
 		end
 	end)
 end
-coroutine.wrap(WXORKWP_fake_script)()
-local function YDEWSTL_fake_script() -- SaveInstance_2.SaveHandler 
+coroutine.wrap(ROQW_fake_script)()
+local function AWICYH_fake_script() -- SaveInstance_2.SaveHandler 
 	local script = Instance.new('LocalScript', SaveInstance_2)
 	local req = require
 	local require = function(obj)
@@ -384,4 +384,4 @@ local function YDEWSTL_fake_script() -- SaveInstance_2.SaveHandler
 		synsaveinstance(options)
 	end)
 end
-coroutine.wrap(YDEWSTL_fake_script)()
+coroutine.wrap(AWICYH_fake_script)()
